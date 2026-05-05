@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+.btn {
+    background-color: var(--color-sky-100);
+    &:hover {
+      background-color: var(--color-sky-700);
+    }
+  }
+
+  @layer utilities {
+  .font-istok {
+    font-family: "Istok Web", sans-serif;
+  }
+}
