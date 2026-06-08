@@ -12,3 +12,26 @@
     font-family: "Istok Web", sans-serif;
   }
 }
+
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marquee-track {
+    display: flex;
+    width: max-content;
+    gap: 40px;
+
+    animation: marquee 35s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}

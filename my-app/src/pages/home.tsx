@@ -9,7 +9,7 @@ export function Home () {
         <div className="bg-[#EEEAF8]/80 p-6">
             <div className="flex flex-col">
                 <p className="uppercase text-gray-800 font-istok font-medium text-ml px-8 py-8 self-start">featured work</p>
-                <div className=" flex flex-row justify-around">
+                <div className=" flex flex-row justify-around flex-wrap">
                     <WorkCaseWindow />
                     <WorkCaseWindow />
                     <WorkCaseWindow />
@@ -17,7 +17,7 @@ export function Home () {
             </div>
         </div>
         <div className= "p-6 flex flex-col gap-8">
-            <div className="bg-[#F3F2F5]/50 p-4 rounded-2xl bg-[url('assets/Oval2.png')]/10 bg-cover bg-center flex flex-row gap-6 flex-none">
+            <div className="bg-[#F3F2F5]/50 p-6 rounded-2xl bg-[url('assets/Oval2.png')]/10 bg-cover bg-center flex flex-row gap-6 flex-none">
                 <div className="flex flex-col gap-3 justify-around">
                     <p className="uppercase text-gray-800 font-istok font-medium text-ml px-8 py-8 self-start">About me</p>
                     <p className=" text-gray-500 self-start">Description its abot me text.Description its abot me text.
