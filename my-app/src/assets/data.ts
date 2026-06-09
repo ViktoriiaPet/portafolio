@@ -61,3 +61,27 @@ export const bannerData = [
     },
 
 ]
+export const workExample = [
+    {
+        "name" : "API with backend",
+        "description": "This is my new project with typical API and crud system for working with users",
+        "image": "./src/assets/dataBaseApi.png",
+        "stack": ["React", "Node"],
+        "link": "https://github.com/ViktoriiaPet/crud-api"
+    },
+        {
+        "name" : "API with backend",
+        "description": "This is my new project",
+        "image": "image",
+        "stack": ["React", "Node"],
+        "link": "https://github.com/ViktoriiaPet/crud-api"
+    },
+        {
+        "name" : "API with backend",
+        "description": "This is my new project",
+        "image": "image",
+        "stack": ["React", "Node"],
+        "link": "https://github.com/ViktoriiaPet/crud-api"
+    }
+
+]
