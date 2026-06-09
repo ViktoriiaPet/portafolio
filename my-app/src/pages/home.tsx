@@ -2,6 +2,7 @@ import { MainHeader } from "../components/headMain"
 import { WorkCaseWindow } from "../components/WorkCaseWindow"
 import { ButtonPrimary } from "../components/Button-primary"
 import { StackTicket } from "../components/stackTicket"
+import { workExample } from "../assets/data"
 export function Home () {
     return(
         <div >
@@ -10,17 +11,18 @@ export function Home () {
             <div className="flex flex-col">
                 <p className="uppercase text-gray-800 font-istok font-medium text-ml px-8 py-8 self-start">featured work</p>
                 <div className=" flex flex-row justify-around flex-wrap">
-                    <WorkCaseWindow />
-                    <WorkCaseWindow />
-                    <WorkCaseWindow />
+                    {workExample.map(example => {
+                        return( <WorkCaseWindow cardInformation={example} />)
+                    })}
+                    
                 </div>
             </div>
         </div>
-        <div className= "p-6 flex flex-col gap-8">
-            <div className="bg-[#F3F2F5]/50 p-6 rounded-2xl bg-[url('assets/Oval2.png')]/10 bg-cover bg-center flex flex-row gap-6 flex-none">
-                <div className="flex flex-col gap-3 justify-around">
+        <div className= "p-6 flex flex-col gap-20">
+            <div className="bg-[#F3F2F5]/50 p-6 rounded-2xl bg-[url('assets/Oval2.png')]/10 bg-cover bg-center flex flex-row gap-20 flex-none">
+                <div className="flex flex-col gap-3 justify-around p-2">
                     <p className="uppercase text-gray-800 font-istok font-medium text-ml px-8 py-8 self-start">About me</p>
-                    <p className=" text-gray-500 self-start">Description its abot me text.Description its abot me text.
+                    <p className=" text-gray-500 self-start pb-5">Description its abot me text.Description its abot me text.
                         Description its abot me text.Description its abot me text.
                         Description its abot me text.Description its abot me text.
                         Description its abot me text.Description its abot me text.Description its abot me text.</p>
