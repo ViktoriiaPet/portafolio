@@ -7,10 +7,10 @@ export function Home () {
     return(
         <div >
         <MainHeader />
-        <div className="bg-[#EEEAF8]/80 p-6">
+        <div className="bg-[#EEEAF8]/80 py-6 px-10">
             <div className="flex flex-col">
                 <p className="uppercase text-gray-800 font-istok font-medium text-ml px-8 py-8 self-start">featured work</p>
-                <div className=" flex flex-row justify-around flex-wrap">
+                <div className="grid grid-cols-3 gap-6">
                     {workExample.map(example => {
                         return( <WorkCaseWindow cardInformation={example} />)
                     })}
@@ -18,11 +18,11 @@ export function Home () {
                 </div>
             </div>
         </div>
-        <div className= "p-6 flex flex-col gap-20">
+        <div className= "py-6 flex flex-col gap-20 px-10">
             <div className="bg-[#F3F2F5]/50 p-6 rounded-2xl bg-[url('assets/Oval2.png')]/10 bg-cover bg-center flex flex-row gap-20 flex-none">
                 <div className="flex flex-col gap-3 justify-around p-2">
                     <p className="uppercase text-gray-800 font-istok font-medium text-ml px-8 py-8 self-start">About me</p>
-                    <p className=" text-gray-500 self-start pb-5">Description its abot me text.Description its abot me text.
+                    <p className=" text-gray-500 self-start pb-5 text-left pl-5">Description its abot me text.Description its abot me text.
                         Description its abot me text.Description its abot me text.
                         Description its abot me text.Description its abot me text.
                         Description its abot me text.Description its abot me text.Description its abot me text.</p>

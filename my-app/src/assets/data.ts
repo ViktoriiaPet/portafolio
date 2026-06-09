@@ -63,23 +63,23 @@ export const bannerData = [
 ]
 export const workExample = [
     {
-        "name" : "API with backend",
+        "name" : "NexusCore",
         "description": "This is my new project with typical API and crud system for working with users",
         "image": "./src/assets/dataBaseApi.png",
         "stack": ["React", "Node"],
         "link": "https://github.com/ViktoriiaPet/crud-api"
     },
         {
-        "name" : "API with backend",
-        "description": "This is my new project",
-        "image": "image",
+        "name" : "Portfolio landing",
+        "description": "GitHub repository of this page",
+        "image": "./src/assets/noteBookImage.png",
         "stack": ["React", "Node"],
-        "link": "https://github.com/ViktoriiaPet/crud-api"
+        "link": "https://github.com/ViktoriiaPet/portafolio/tree/develop"
     },
         {
         "name" : "API with backend",
         "description": "This is my new project",
-        "image": "image",
+        "image": "./src/assets/pencilMagicImage.png",
         "stack": ["React", "Node"],
         "link": "https://github.com/ViktoriiaPet/crud-api"
     }
