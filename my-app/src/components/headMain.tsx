@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div className="p-4 grid grid-cols-2 gap-4 justify-items-start">
-                <ButtonPrimary to="/work" children = "View my work"/>
+                <a href="https://github.com/ViktoriiaPet"><ButtonPrimary children = "My GitHub"/></a>
                 <a href="/CV_Viktoriia_Petukhova.pdf" download><ButtonPrimary children = "Download my CV" /></a>
             </div>
             </div>
