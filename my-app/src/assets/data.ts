@@ -76,12 +76,23 @@ export const workExample = [
         "stack": ["React", "Node"],
         "link": "https://github.com/ViktoriiaPet/portafolio/tree/develop"
     },
-        {
+    /*    {
         "name" : "API with backend",
         "description": "This is my new project",
         "image": "./src/assets/pencilMagicImage.png",
         "stack": ["React", "Node"],
         "link": "https://github.com/ViktoriiaPet/crud-api"
-    }
+    }*/
 
 ]
+
+export const stackFrontend = [
+    "JavaScript", "React", "TypeScript", "React", "HTML5", "CSS3", "Vite", "React Testing Library", "Vitest"
+]
+export const stackBackend = ["Node.js", "Express.js", "NestJS", "REST API"]
+
+export const dataBase = ["MySQL", "PostgreSQL", "MongoDB"]
+
+export const tools = ["Git", "Docker", "GitHub", "Figma"]
+
+export const tecnologies = ["Kanban", "Scrum", "Agile", "Responsive Design", "JWT Authentication", "Git Flow",  "REST API", "Component-based Architecture",]
