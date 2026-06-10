@@ -12,12 +12,12 @@ export function WorkCaseWindow ({ cardInformation }: { cardInformation: ProjectC
                 <p className="text-xs text-neutral-800" >{description}</p>
             </div>
             <div className="image aspect-square">
-                <img src = {image} alt = "Image of work" />
+                <img key={link} src = {image} alt = "Image of work" />
             </div>
              </div>
              <div className="flex flex-row gap-2 justify-center py-2">
                 {stack.map(ticket => {
-                    return ( <StackTicket text={ticket} /> )
+                    return ( <StackTicket key={ticket} text={ticket} /> )
                 })
                 }
                 <a href={link} target="_blank" rel="noreferrer" className="text-neutral-700">

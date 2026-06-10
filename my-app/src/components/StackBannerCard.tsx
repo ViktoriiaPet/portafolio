@@ -12,10 +12,10 @@ export function StackBannerCard ( {
             <p className="p-5 text-ml text-neutral-800  ">{typeTech}</p>
             <div className=" px-0 m-1 py-1 rounded-xl flex flex-col wrap-normal ">
 
-            {stackNames.map(ticket => {
+            {stackNames.map((ticket, index) => {
                 return (
                     
-                    <div className="px-5 py-2">
+                    <div key={index} className="px-5 py-2">
                     <StackTicket text = {ticket} />
                     </div>
                     

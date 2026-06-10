@@ -8,10 +8,10 @@ export function StackBanner () {
             <div className="flex gap-10 items-center marquee-track flex-row">
 
             {bannerData.map(images => 
-                <img src={images.src} alt={images.alt} className="w-8 h-8 px-2 box-content opacity-80"/>
+                <img key={images.alt} src={images.src} alt={images.alt} className="w-8 h-8 px-2 box-content opacity-80"/>
             )}
                         {bannerData.map(images => 
-                <img src={images.src} alt={images.alt} className="w-8 h-8 px-2 box-content opacity-80"/>
+                <img key={images.alt} src={images.src} alt={images.alt} className="w-8 h-8 px-2 box-content opacity-80"/>
             )}
 
         </div>        

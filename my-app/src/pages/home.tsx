@@ -11,7 +11,7 @@ export function Home () {
                 <p className="uppercase text-gray-800 font-istok font-medium text-ml px-8 py-8 self-start">featured work</p>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                     {workExample.map(example => {
-                        return( <WorkCaseWindow cardInformation={example} />)
+                        return( <WorkCaseWindow key={example.link} cardInformation={example} />)
                     })}
                     
                 </div>
