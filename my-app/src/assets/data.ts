@@ -1,3 +1,5 @@
+import DataBaseImage from "./dataBaseApi.png"
+import NoteBookImage from "./noteBookImage.png"
 export const bannerData = [
     {
         "src":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
@@ -64,15 +66,15 @@ export const bannerData = [
 export const workExample = [
     {
         "name" : "NexusCore",
-        "description": "This is my new project with typical API and crud system for working with users",
-        "image": "./src/assets/dataBaseApi.png",
+        "description": "REST API built with expressJS and PostgreSQL featuring authentication, user management, validation and CRUD operations.",
+        "image": DataBaseImage,
         "stack": ["React", "Node"],
         "link": "https://github.com/ViktoriiaPet/crud-api"
     },
         {
         "name" : "Portfolio landing",
         "description": "GitHub repository of this page",
-        "image": "./src/assets/noteBookImage.png",
+        "image": NoteBookImage,
         "stack": ["React", "Node"],
         "link": "https://github.com/ViktoriiaPet/portafolio/tree/develop"
     },
@@ -87,7 +89,7 @@ export const workExample = [
 ]
 
 export const stackFrontend = [
-    "JavaScript", "React", "TypeScript", "React", "HTML5", "CSS3", "Vite", "React Testing Library", "Vitest"
+    "JavaScript", "React", "TypeScript", "HTML5", "CSS3", "Vite", "React Testing Library", "Vitest"
 ]
 export const stackBackend = ["Node.js", "Express.js", "NestJS", "REST API"]
 
