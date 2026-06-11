@@ -17,7 +17,7 @@ export function StackHomePagePart() {
 
             <StackBannerCard typeTech = "Tools" stackNames = {tools} />
 
-            <StackBannerCard typeTech = "Tecnologes" stackNames = {tecnologies} />
+            <StackBannerCard typeTech = "Technologies" stackNames = {tecnologies} />
         </div>
     </div>
     )

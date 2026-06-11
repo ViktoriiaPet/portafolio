@@ -21,15 +21,14 @@ export function Home () {
             <div className="bg-[#F3F2F5]/50 sm:p-6 p-3 rounded-2xl bg-[url('assets/Oval2.png')]/10 bg-cover bg-center flex sm:flex-row flex-col gap-20 flex-none">
                 <div className="flex flex-col sm:gap-3 justify-around sm:p-2">
                     <p className="uppercase text-gray-800 font-istok font-medium text-ml py-4 px-5 sm:px-8 sm:py-8 self-start">About me</p>
-                    <p className=" text-gray-500 self-start pb-1 text-justify pl-5">I'm a frontend/backend developer passionate about TypeScript,
-                         Node.js, 
-                        Express, and creating both learning and practical projects.</p>
-                    <p className=" text-gray-500 self-start pb-1 text-justify pl-5">
-                        I am a responsible and detail-oriented person with a strong interest in technology and data analysis. I learn quickly and enjoy exploring new tools and approaches in web development and analytics. 
+                    <p className=" text-gray-700 self-start pb-1 text-justify pl-5">I'm a Full Stack Developer focused on building web applications with TypeScript, React, Node.js, and PostgreSQL. 
+                        I enjoy turning ideas into functional products and working across both frontend and backend development.</p>
+                    <p className=" text-gray-700 self-start pb-1 text-justify pl-5">
+                        My current focus is creating scalable applications, REST APIs, and improving code quality through testing, clean architecture, and modern development practices.
                     </p>
-                    <p className=" text-gray-500 self-start pb-2 text-justify pl-5">
-                        I like working as part of a team and contributing to a positive and focused work environment. I value code clarity and well-organized data. My colleagues often highlight my friendly attitude, willingness to help, and ability to listen.
-                    </p>
+                    <p className=" text-gray-700 self-start pb-2 text-justify pl-5">
+                       I'm looking for opportunities to grow as a software engineer, contribute to real-world products, 
+                       and collaborate with teams that value learning, ownership, and continuous improvement. </p>
 
                     {/*<ButtonPrimary children = "More about me" />}*/}
                 </div>
