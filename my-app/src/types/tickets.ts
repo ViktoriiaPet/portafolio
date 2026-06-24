@@ -7,5 +7,8 @@ export type ProjectCardType = {
     "description" : string;
     "image" :string;
     "stack" : Array<string>;
-    "link": string
+    "link": string;
+    "DeployLink"?: string;
+    "comments"?: string;
+    "DocumentationLink"?: string;
 }
