@@ -12,7 +12,7 @@ function App() {
 
 
   return (
-    <BrowserRouter  basename="/portafolio">
+    <BrowserRouter  basename="/portafolio/">
     
     <Routes>
       <Route path="/" element={<LayoutMenu />} />
