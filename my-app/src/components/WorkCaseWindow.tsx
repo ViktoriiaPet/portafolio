@@ -15,17 +15,17 @@ export function WorkCaseWindow ({ cardInformation }: { cardInformation: ProjectC
                 <img key={link} src = {image} alt = "Image of work" />
             </div>
              </div>
-             <div className="flex flex-col gap-2 justify-center py-6 mt-auto">
+             <div className="flex flex-col gap-2 justify-center px-4 py-6 mt-auto">
                 
-                <div className="flex flex-col  gap-1 sm:gap-2 py-4 justify-center items-center">
+                <div className="flex flex-row  gap-1 sm:gap-5 py-4 justify-center sm:justify-between items-center">
                 <a href={link} target="_blank" rel="noreferrer" className="text-neutral-700">
                     Go to GitHub
                 </a>
                 {cardInformation.DeployLink && <a href={cardInformation.DeployLink} target="_blank" rel="noreferrer" className="text-neutral-700">
-                    Go to Deploy
+                    Deploy
                 </a>}
                 {cardInformation.DocumentationLink && <a href={cardInformation.DocumentationLink} target="_blank" rel="noreferrer" className="text-neutral-700">
-                    Go to Documentation
+                    Documentation
                 </a>}
                 </div>
                 <div className="flex flex-row gap-2 sm:gap-4 justify-center items-center flex-wrap">
