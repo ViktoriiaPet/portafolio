@@ -70,7 +70,7 @@ export const workExample = [
         "name" : "NexusCore",
         "description": "REST API built with expressJS and PostgreSQL featuring authentication, user management, validation and CRUD operations.",
         "image": DataBaseImage,
-        "stack": ["React", "Node"],
+        "stack": ["React", "Node", "Express.js", "JWT Authentication", "REST API", "postgreSQL"],
         "link": "https://github.com/ViktoriiaPet/crud-api",
         "DeployLink": "https://crud-api-5ydv.onrender.com/users",
         "DocumentationLink": "https://crud-api-5ydv.onrender.com/api-docs/#/"
@@ -79,7 +79,7 @@ export const workExample = [
         "name" : "Portfolio landing",
         "description": "GitHub repository of this page",
         "image": NoteBookImage,
-        "stack": ["React", "Node", "Express.js", "JWT Authentication", "REST API", "Component-based Architecture"],
+        "stack": ["React", "Node", "Express.js", "React DOM Routing", "Component-based Architecture"],
         "link": "https://github.com/ViktoriiaPet/portafolio/tree/develop",
     },
     {
@@ -94,7 +94,7 @@ export const workExample = [
         "name": "Events social network",
         "description": "Social network for events with authentication, user management, validation and CRUD operations.",
         "image": landingLayautImage,
-        "stack": ["React", "Node", "MySQL", "TailwindCSS", "Express.js", "JWT Authentication", "REST API", "Component-based Architecture"],
+        "stack": ["React", "Node", "MySQL", "TailwindCSS", "Express.js", "JWT Authentication", "REST API"],
         "link": "https://github.com/ViktoriiaPet/fullstack-JS-final-project/tree/main",
         "comments": "Is a big project for full stack course, but it wasn't requred to be deployed, documented and finished. You can check the repository for more information.",
     }
