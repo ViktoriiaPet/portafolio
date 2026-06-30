@@ -17,7 +17,7 @@ export function WorkCaseWindow ({ cardInformation }: { cardInformation: ProjectC
              </div>
              <div className="flex flex-col gap-2 justify-center px-4 py-6 mt-auto">
                 
-                <div className="flex flex-row  gap-1 sm:gap-5 py-4 justify-center sm:justify-between items-center">
+                <div className="flex sm:flex-row flex-col  gap-1 sm:gap-5 py-4 justify-center sm:justify-between items-center">
                 <a href={link} target="_blank" rel="noreferrer" className="text-neutral-700">
                     Go to GitHub
                 </a>
