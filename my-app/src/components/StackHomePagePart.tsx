@@ -8,7 +8,7 @@ export function StackHomePagePart() {
     return (
     <div className="bg-[#F3F2F5]/50 p-4 rounded-2xl flex flex-col">
         <p className="uppercase text-gray-800 font-istok font-medium text-ml px-8 py-8 self-start">My Stack</p>
-        <div className="grid sm:grid-cols-5">
+        <div className="grid sm:grid-cols-5 gap-4">
             <StackBannerCard typeTech = "Frontend" stackNames = {stackFrontend} />
 
             <StackBannerCard typeTech = "Backend" stackNames = {stackBackend} />
