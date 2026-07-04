@@ -4,7 +4,7 @@
 
 
         return(
-            <>
+            <header>
             <div className="grid sm:grid-cols-2 gap-1">
             <div className="bg-transparent p-8 pb-6 sm:col-span-1">
             <div className="flex flex-col sm:justify-center">
@@ -25,6 +25,6 @@
             </div>
             </div>
             <StackBanner />
-            </>
+            </header>
         )
     }
