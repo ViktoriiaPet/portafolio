@@ -8,7 +8,7 @@ export function StackBannerCard ( {
         stackNames: string[];
     }) {
     return (
-        <div className="flex flex-col  items-center border border-neutral-500/10  rounded-xl">
+        <div className="flex flex-col  items-center border border-neutral-500/10  rounded-xl bg-purple-300/5">
             <p className="p-5 text-ml text-neutral-800  ">{typeTech}</p>
             <div className=" px-0 m-1 py-1 rounded-xl flex flex-col wrap-normal ">
 
