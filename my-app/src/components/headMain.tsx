@@ -18,10 +18,11 @@
                 </p>
                 </div>
             </div>
-            <div className="p-4 grid grid-cols-2 gap-4 justify-items-start">
+            <div className="p-4 flex flex-row gap-4 justify-center flex-wrap items-center">
+                <a href="./CV_EN_Correct_Victoria.pdf" download><ButtonPrimary children = "Download my CV ENG" /></a>
+                <a href="./CV_ES_Correct_Victoria.pdf" download><ButtonPrimary children = "Download my CV ESP" /></a></div>
                 <a href="https://github.com/ViktoriiaPet"><ButtonPrimary children = "My GitHub"/></a>
-                <a href="./CV_Viktoriia_Petukhova.pdf" download><ButtonPrimary children = "Download my CV" /></a>
-            </div>
+            
             </div>
             </div>
             <StackBanner />
