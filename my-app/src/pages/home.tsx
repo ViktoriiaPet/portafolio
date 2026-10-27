@@ -4,7 +4,7 @@ import { StackHomePagePart } from "../components/StackHomePagePart"
 import { workExample } from "../assets/data"
 export function Home () {
     return(
-        <main className="flex flex-col gap-6 sm:gap-10 sm:px-10 px-2 py-2">
+        <main className="flex flex-col gap-6 sm:gap-10 sm:px-0 px-2">
         <MainHeader />
         <section className="bg-[#EEEAF8]/80 sm:py-6 sm:px-10 px-2 py-2">
             <div className="flex flex-col">

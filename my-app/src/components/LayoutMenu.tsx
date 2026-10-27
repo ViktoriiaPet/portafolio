@@ -3,7 +3,7 @@ import { MenuPrimary } from "./menu";
 
 export function LayoutMenu () {
     return (
-        <div className=" aspect-3/1 bg-[url('assets/mainBanner.png')] bg-cover bg-center">
+        <div className=" aspect-3/1 bg-cover bg-center bg-[#F0D8BD]">
       <MenuPrimary />
       <Home />
     </div>
