@@ -1,7 +1,7 @@
 export type StackTicketProps = {
     text: string
 }
-
+export type WorkLayout = "featured" | "wide" | "standard";
 export type ProjectCardType = {
     "name" : string;
     "description" : string;
@@ -11,4 +11,6 @@ export type ProjectCardType = {
     "DeployLink"?: string;
     "comments"?: string;
     "DocumentationLink"?: string;
+    "layout":WorkLayout
+
 }
