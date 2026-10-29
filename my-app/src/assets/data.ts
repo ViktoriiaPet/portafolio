@@ -85,8 +85,7 @@ export const workExample:ProjectCardType[] = [
         "image": theMissingPainting,
         "stack": ["React", "Node", "TypeScript"],
         "link": "https://github.com/ViktoriiaPet/crud-api",
-        "DeployLink": "https://crud-api-5ydv.onrender.com/users",
-        "DocumentationLink": "https://crud-api-5ydv.onrender.com/api-docs/#/",
+        "DeployLink": "https://github.com/ViktoriiaPet/blue_picture_game",
         "layout": "featured"},
 
             {
@@ -120,13 +119,13 @@ export const workExample:ProjectCardType[] = [
 
 ]
 
-export const stackFrontend = [
-    "JavaScript", "React", "TypeScript", "HTML5", "CSS3", "Vite", "React Testing Library", "Vitest"
+export const FRONTEND = [
+    "JavaScript", "React", "TypeScript", "HTML5", "CSS3", "Vite", "Tailwind CSS"
 ]
-export const stackBackend = ["Node.js", "Express.js", "NestJS", "REST API"]
+export const BACKEND = ["Node.js", "Express.js", "NestJS", "REST API", "JWT Authentication"]
 
-export const dataBase = ["MySQL", "PostgreSQL", "MongoDB"]
+export const dataBase = ["MySQL", "PostgreSQL", "Vitest", "React Testing Library"]
 
-export const tools = ["Git", "Docker", "GitHub", "Figma"]
+export const tools = ["Git","GitHub","GitHub Actions", "Git Flow", "Docker",  "Figma"]
 
-export const tecnologies = ["Kanban", "Scrum", "Agile", "Responsive Design", "JWT Authentication", "Git Flow",  "REST API", "Component-based Architecture",]
+export const tecnologies = ["Responsive Design", "Pixel-Perfect Implementation", "Component-Based Architecture", "Agile", "Scrum", "Kanban"]

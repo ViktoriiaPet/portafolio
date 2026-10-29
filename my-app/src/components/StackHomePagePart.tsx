@@ -1,23 +1,25 @@
 import { StackBannerCard } from "./StackBannerCard"
-import { stackFrontend } from "../assets/data"
-import { stackBackend } from "../assets/data"
+import { FRONTEND } from "../assets/data"
+import { BACKEND } from "../assets/data"
 import { dataBase } from "../assets/data"
 import { tools } from "../assets/data"
 import { tecnologies } from "../assets/data"
 export function StackHomePagePart() {
     return (
-    <section className="bg-[#F3F2F5]/50 p-4 rounded-2xl flex flex-col">
-        <p className="uppercase text-gray-800 font-istok font-medium text-ml px-8 py-8 self-start">My Stack</p>
-        <div className="grid sm:grid-cols-5 gap-4">
-            <StackBannerCard typeTech = "Frontend" stackNames = {stackFrontend} />
+    <section className="bg-[#044953] p-7  flex flex-col w-full items-center">
+        <div className="max-w-[1514px] flex flex-col xl:px-8">
+        <p className="uppercase text-[#F0D8BD]  font-[DM Mono] xl:text-4xl xl:px-12 2xl:text-6xl tracking-tighter text-ml sm:px-8 sm:py-8 relative after:absolute after:bottom-0 after:left-2 after:right-2 after:h-px after:bg-[#AC7434] px-8 py-2 self-start">My <span className="text-[#AC7434]">Stack</span> </p>
+        <div className="grid sm:grid-cols-5 gap-4 pt-3 xl:pt-10">
+            <StackBannerCard typeTech = "FRONTEND" stackNames = {FRONTEND} />
 
-            <StackBannerCard typeTech = "Backend" stackNames = {stackBackend} />
+            <StackBannerCard typeTech = "BACKEND" stackNames = {BACKEND} />
 
-            <StackBannerCard typeTech = "Data Bases" stackNames = {dataBase} />
+            <StackBannerCard typeTech = "DATABASES & TESTING" stackNames = {dataBase} />
 
-            <StackBannerCard typeTech = "Tools" stackNames = {tools} />
+            <StackBannerCard typeTech = "TOOLS & WORKFLOW" stackNames = {tools} />
 
-            <StackBannerCard typeTech = "Technologies" stackNames = {tecnologies} />
+            <StackBannerCard typeTech = "DEVELOPMENT PRACTICES" stackNames = {tecnologies} />
+        </div>
         </div>
     </section>
     )
