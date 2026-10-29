@@ -18,7 +18,7 @@ export function WorkCaseWindow ({ cardInformation }: { cardInformation: ProjectC
                 <div className=" box-border p-1">
                 <img key={link} src = {image} alt = "Image of work" />
             </div>
-            <div className="flex flex-col sm:gap-2 xl:gap-5 sm:p-2 xl:p-5 ">
+            <div className="flex flex-col pl-2 sm:gap-2 xl:gap-5 sm:p-2 xl:p-5 ">
                 
                 <p className="text-ml text-[#0b2639] xl:text-3xl tracking-wide text-left font-[DM Mono] tracking-tighter">{name}</p>
                 <p className="text-xs text-[#0b2639] xl:text-2xl text-left font-[Manrope]" >{description}</p>
