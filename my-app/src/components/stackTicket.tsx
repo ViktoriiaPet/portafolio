@@ -7,3 +7,11 @@ export function StackTicket({text}: StackTicketProps){
         </div>
     )
 }
+
+export function StackTicketLight({text}: StackTicketProps){
+    return(
+        <div className="  py-0 px-1 sm:px-2  inline-block relative font-[Manrope]">
+            <p className="text-sm xl:text-lg text-[#f0d8bd] "> {text} </p>
+        </div>
+    )
+}
