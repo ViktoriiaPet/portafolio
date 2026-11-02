@@ -84,8 +84,8 @@ export const workExample:ProjectCardType[] = [
         "description": "REST API built with expressJS and PostgreSQL featuring authentication, user management, validation and CRUD operations.",
         "image": theMissingPainting,
         "stack": ["React", "Node", "TypeScript"],
-        "link": "https://github.com/ViktoriiaPet/crud-api",
-        "DeployLink": "https://github.com/ViktoriiaPet/blue_picture_game",
+        "link": "https://github.com/ViktoriiaPet/blue_picture_game",
+        "DeployLink": "https://viktoriiapet.github.io/blue_picture_game/",
         "layout": "featured"},
 
             {
